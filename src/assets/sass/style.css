@@ -25,4 +25,12 @@ header .content hr {
 }
 header .content a {
   background-color: #f4623a;
+}
+
+main #need {
+  background-color: #f4623a;
+  padding: 150px;
+}
+main #need hr {
+  border: 0.1rem solid #fff;
 }/*# sourceMappingURL=style.css.map */
