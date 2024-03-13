@@ -41,4 +41,12 @@ main {
       border: 0.1rem solid #fff;
     }
   }
+  #service {
+    i {
+      color: $colorMain;
+    }
+    hr {
+      border: 0.1rem solid $colorMain;
+    }
+  }
 }
