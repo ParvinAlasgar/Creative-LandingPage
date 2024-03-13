@@ -1,2 +1,1 @@
-# Creative-LandingPage
-This is a simple web landing page application.
+![screenshot](./src/assets/images/screenshot.png)
