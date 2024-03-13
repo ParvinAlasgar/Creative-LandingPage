@@ -65,4 +65,13 @@ main #touch hr {
 }
 main #touch button {
   background-color: #f4623a;
+}
+
+@media only screen and (max-width: 576px) {
+  nav .nav-logo {
+    display: none;
+  }
+  #need .container {
+    width: 100% !important;
+  }
 }/*# sourceMappingURL=style.css.map */

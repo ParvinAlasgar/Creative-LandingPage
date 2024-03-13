@@ -14,6 +14,16 @@
 
 // Small devices  (tablets, 576px and down)
 @media only screen and (max-width: 576px) {
+  nav {
+    .nav-logo {
+      display: none;
+    }
+  }
+  #need {
+    .container {
+      width: 100% !important;
+    }
+  }
 }
 
 // Extra Small devices (tablets, 320px and down)
