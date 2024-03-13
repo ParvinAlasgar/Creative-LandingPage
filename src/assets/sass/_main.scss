@@ -15,7 +15,7 @@ header {
     url("../images/bg-masthead.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vw;
+  height: 100vh;
   width: 100%;
   .content {
     position: absolute;
@@ -33,7 +33,7 @@ header {
 
 // Main
 main {
-  // need
+  // Need
   #need {
     background-color: $colorMain;
     padding: 150px;
@@ -41,7 +41,7 @@ main {
       border: 0.1rem solid #fff;
     }
   }
-
+  // Service
   #service {
     i {
       color: $colorMain;
@@ -50,7 +50,7 @@ main {
       border: 0.1rem solid $colorMain;
     }
   }
-  //category
+  //Category
   #category {
     .wrapper {
       cursor: pointer;
@@ -70,7 +70,7 @@ main {
       }
     }
   }
-  //   download
+  //   Download
   #download {
     padding: 6rem 0;
   }
@@ -79,8 +79,6 @@ main {
     hr {
       border: 0.1rem solid $colorMain;
     }
-  }
-  #touch {
     button {
       background-color: $colorMain;
     }
