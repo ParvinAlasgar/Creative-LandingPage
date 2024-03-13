@@ -1,0 +1,77 @@
+html {
+  font-size: 1rem;
+}
+
+nav {
+  padding: 1rem 0;
+  background-color: #f4623a;
+}
+
+header {
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../images/bg-masthead.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+header .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+header .content hr {
+  border: 0.1rem solid #f4623a;
+}
+header .content a {
+  background-color: #f4623a;
+}
+
+main #need {
+  background-color: #f4623a;
+  padding: 150px;
+}
+main #need hr {
+  border: 0.1rem solid #fff;
+}
+main #service i {
+  color: #f4623a;
+}
+main #service hr {
+  border: 0.1rem solid #f4623a;
+}
+main #category .wrapper {
+  cursor: pointer;
+}
+main #category .wrapper::after {
+  content: "";
+  position: absolute;
+  background-color: #f4623a;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: opacity ease-in-out 0.7s;
+}
+main #category .wrapper:hover::after {
+  opacity: 0.8;
+}
+main #download {
+  padding: 6rem 0;
+}
+main #touch hr {
+  border: 0.1rem solid #f4623a;
+}
+main #touch button {
+  background-color: #f4623a;
+}
+
+@media only screen and (max-width: 576px) {
+  nav .nav-logo {
+    display: none;
+  }
+  #need .container {
+    width: 100% !important;
+  }
+}/*# sourceMappingURL=style.css.map */
