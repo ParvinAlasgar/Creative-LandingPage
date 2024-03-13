@@ -56,4 +56,13 @@ main #category .wrapper::after {
 }
 main #category .wrapper:hover::after {
   opacity: 0.8;
+}
+main #download {
+  padding: 6rem 0;
+}
+main #touch hr {
+  border: 0.1rem solid #f4623a;
+}
+main #touch button {
+  background-color: #f4623a;
 }/*# sourceMappingURL=style.css.map */
