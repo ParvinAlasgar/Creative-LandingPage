@@ -39,4 +39,21 @@ main #service i {
 }
 main #service hr {
   border: 0.1rem solid #f4623a;
+}
+main #category .wrapper {
+  cursor: pointer;
+}
+main #category .wrapper::after {
+  content: "";
+  position: absolute;
+  background-color: #f4623a;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: opacity ease-in-out 0.7s;
+}
+main #category .wrapper:hover::after {
+  opacity: 0.8;
 }/*# sourceMappingURL=style.css.map */
