@@ -1,0 +1,28 @@
+html {
+  font-size: 1rem;
+}
+
+nav {
+  padding: 1rem 0;
+  background-color: #f4623a;
+}
+
+header {
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../images/bg-masthead.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vw;
+  width: 100%;
+}
+header .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+header .content hr {
+  border: 0.1rem solid #f4623a;
+}
+header .content a {
+  background-color: #f4623a;
+}/*# sourceMappingURL=style.css.map */
